@@ -1,6 +1,10 @@
 package es.jms;
 
+import es.jms.Fase1.Codificador;
 import es.jms.Fase2.PintarFichero;
+import es.jms.Fase3.TipoPrimitivos;
+import es.jms.Fase4.WriteObjects;
+import es.jms.Fase5.BusquedaParametizable;
 
 import java.util.Scanner;
 
@@ -10,15 +14,20 @@ import java.util.Scanner;
  */
 public class App 
 {
-    static Scanner scanner;
 
-    public App()
-    {
-        this.scanner = new Scanner(System.in);;
-    }
+
+
 
     public static void main( String[] args )
     {
-        PintarFichero.pintarPersonas(scanner);
+        Scanner scanner = new Scanner(System.in);
+        //Codificador.codificacion();
+        //PintarFichero.pintarPersonas(scanner);
+        //TipoPrimitivos.ficheroTipoPrimitivos();
+        //WriteObjects.guardarObjetos();
+        BusquedaParametizable.lecturaObjetos(scanner);
+
     }
+
+
 }

@@ -6,7 +6,7 @@ import java.io.*;
 
 public class Codificador {
 
-    public void codificacion()
+    public static void codificacion()
     {
 
         FileReader fileReader = null;
