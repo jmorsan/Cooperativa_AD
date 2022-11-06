@@ -9,7 +9,7 @@ import es.jms.Fase5.BusquedaParametizable;
 import java.util.Scanner;
 
 /**
- * Hello world!
+ * Tarea Cooperativa
  *
  */
 public class App 
